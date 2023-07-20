@@ -1,0 +1,30 @@
+.Table-Container {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  height: 30%;
+  width: 40%;
+  min-width: 200px;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  font-size: large;
+  border-bottom: 1px solid;
+  border-left: 1px solid #000;
+}
+table td {
+  border-left: 1px solid #000;
+  border-bottom: 0.5px dotted #777;
+}
+table td :first-child {
+  border-left: none;
+}
+table th :first-child {
+  border-left: none;
+}

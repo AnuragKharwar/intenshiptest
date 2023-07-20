@@ -1,0 +1,37 @@
+.Toggle-Container {
+  margin-top: 50px;
+  height: 50px;
+}
+.btn {
+  height: fit-content;
+  padding: 5px 10px;
+  margin: 1px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #a2d2ff;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+.selected {
+  pointer-events: none;
+  background-color: #219ebc;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #219ebc;
+  transition: 0.3s ease-in-out;
+  padding: 6px 11px;
+  border: 1px solid #111;
+}
+@media only screen and (min-width: 2000px) {
+  .Toggle-Container {
+    margin-top: 100px;
+    height: 100px;
+  }
+  .btn {
+    font-size: larger;
+    padding: 10px 15px;
+    margin: 3px;
+  }
+}
